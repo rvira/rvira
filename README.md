@@ -1,6 +1,6 @@
 # Hello there! 👋🏻 I am Rishabh Vira! <img src="https://i.imgur.com/veZrcC7.gif" alt="Meaow" width="50" />
 
-I am web developer looking to solve real world problems. I have a passion for learning and technology and designing. If you found value in something I have created, please feel free to give me a shout out @rvira or give some ♥ on mail. 
+I am web developer looking to solve real world problems. I have a passion for learning and technology and designing. If you found value in something I have created, please feel free to give me a shout out [@rvira](https://github.com/rvira) or give some ♥ on mail. 
 Feel free to reach out in case you want to just get in touch also.
 
 🌱 I’m currently exploring Data Science field and UI/UX
