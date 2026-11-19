@@ -1,7 +1,7 @@
 # Hello there! 👋🏻 I am Romero! <img src="https://i.imgur.com/veZrcC7.gif" alt="Meaow" width="50" />
 
 I'm a web developer who enjoys building things, solving real-world problems, and exploring new ideas through technology and design.
-Always curious, always learning, and always up for a new challenge. If something I've worked on catches your interest, feel free to drop a ⭐️ ot reach out at @rvira[rvira84@gmail.com], or just say hello. I'm always happy to connect!
+Always curious, always learning, and always up for a new challenge. If something I've worked on catches your interest, feel free to drop a ⭐️ or reach out at [@rvira](rvira84@gmail.com). I'm always happy to connect!
 
 🌱 I’m currently exploring the Machine Learning and Artificial Intelligence field and UI/UX
 
