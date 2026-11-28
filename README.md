@@ -11,6 +11,17 @@ Always happy to connect — reach me at [rvira84@gmail.com](mailto:rvira84@gmail
 ---
 ### 📊 Recent development breakdown
 <!--START_SECTION:waka-->
+
+```txt
+From: 1 June 2026 - To: 28 November 2026
+
+TypeScript                          ████████████░░░░░░░░░░░░░   48.61 %
+Python                              ████▓░░░░░░░░░░░░░░░░░░░░   18.55 %
+CSS                                 ███░░░░░░░░░░░░░░░░░░░░░░   12.61 %
+HTML                                ██▓░░░░░░░░░░░░░░░░░░░░░░   11.44 %
+JavaScript                          ██░░░░░░░░░░░░░░░░░░░░░░░   07.82 %
+```
+
 <!--END_SECTION:waka-->
 ---
 

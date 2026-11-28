@@ -1,4 +1,4 @@
-name: WakaTime Readme
+name: Development Breakdown
 
 on:
   schedule:
@@ -7,15 +7,27 @@ on:
 
 jobs:
   update-readme:
-    name: Update README with WakaTime stats
+    name: Update README development breakdown
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Update WakaTime Stats
-        uses: athul/waka-readme@master
-        with:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update breakdown (WakaTime with GitHub-native fallback)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ github.token }}
-          SHOW_TITLE: true
-          SHOW_TIME: false
+        run: python3 .github/scripts/update_breakdown.py
+
+      - name: Commit and push updated README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "docs: update development breakdown"
+            git push
+          fi
